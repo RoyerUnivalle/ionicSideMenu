@@ -63,7 +63,6 @@ export class AppComponent implements OnInit {
       res => {
         console.log(res.data);
         this.appPages = res.menus;
-        console.log(this.appPages);
       },
       error => {
         console.log('error');
