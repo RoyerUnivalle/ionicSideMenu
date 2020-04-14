@@ -43,6 +43,11 @@ export class AppComponent implements OnInit {
       title: 'Spam',
       url: '/folder/Spam',
       icon: 'warning'
+    },
+    {
+      title: 'contacts',
+      url: '/contacts',
+      icon: 'trash'
     }
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
@@ -54,7 +59,7 @@ export class AppComponent implements OnInit {
     private dataService: DataService,
     private alertController: AlertController
   ) {
-    this.getData();
+    // this.getData();
     this.initializeApp();
   }
 
