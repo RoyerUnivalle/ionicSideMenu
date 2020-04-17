@@ -10,7 +10,7 @@ export class MapsComponent implements OnInit, AfterViewInit, AfterContentInit {
   @ViewChild('mapElement', { static: false }) public mapElement: ElementRef;
   mapInitialised = false;
   flag = true;
-  public apiKey: any = 'AIzaSyA-Cfc-mIs1II-HZqgq_HIN_IFBQ3ZsD6k';
+  public apiKey: any = 'your_api_key';
 
   constructor() {}
   ngOnInit() {}
